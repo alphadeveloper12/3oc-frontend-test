@@ -1,0 +1,16 @@
+.custom-file-input {
+    width: 80%;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    outline: none;
+}
+.join-btn {
+    background-Color: "#1a4850";
+    color: "white";
+    padding: "12px 24px";
+    border-radius: "8px";
+    margin-right: "10px";
+    text-decoration: "none";
+    box-shadow: "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)";
+    transition: "background-color 0.3s ease-in-out";
+}

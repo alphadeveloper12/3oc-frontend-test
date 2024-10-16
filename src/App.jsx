@@ -17,7 +17,7 @@ import { NavBar, ProtectedRender } from "./Components";
 // ========== App Component ==========
 export default function App() {
   return (
-    <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
+    <GoogleOAuthProvider clientId='350385143976-rjktt5svokbpcfbreloic1d8djucp6nl.apps.googleusercontent.com'>
       <Router>
         <ProtectedRender
           paths={["/profile", "/cupbuds", "/irl", "/scheduleirl/*"]}
